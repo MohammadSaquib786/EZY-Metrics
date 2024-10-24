@@ -1,0 +1,60 @@
+.dashboard {
+    width: calc(100vw - 250px);
+    margin-left: 250px;
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .topchatbar, .lowerchatbar {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-topchatbar, .detail-lowerchatbar {
+    margin-bottom: 30px;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .para, .paragraph {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .para p, .paragraph p {
+    margin-bottom: 15px;
+  }
+  
+  .lowerchatbar h1, .topchatbar h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  /* For consistent bar chart alignment */
+  .bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .bargraphlist{
+    font-size: 1.5rem;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+  }
+  .bargraphlists{
+    font-size: 1.5rem;
+    width: 35%;
+    text-align: justify;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    margin-right: 20px;
+  }

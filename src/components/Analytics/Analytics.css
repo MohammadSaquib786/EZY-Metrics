@@ -1,0 +1,85 @@
+.analytics{
+        /* font-size: 1.5rem; */
+    width: calc(100vw - 250px);
+    overflow: hidden;
+    margin-left: 250px;
+    padding: 20px;
+   
+}
+/* General Styles */
+  .analytics-header {
+    margin-bottom: 30px;
+
+  }
+  
+  .analytics-header h1 {
+   
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .analytics-description {
+
+    font-size: 1.5rem;
+    margin-left: 10px;
+    line-height: 1.6;
+  }
+  .bargraph{
+    display: flex;
+    /* margin-left: 50px; */
+  }
+  
+  /* Section Styles */
+  .analytics-section {
+    /* border: 2px solid rebeccapurple; */
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .analytics-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Pie Chart Section Styles */
+  .pie-chart-section {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .pie-chart-section > div {
+    display: flex;
+    font-size: 1.5rem;
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .pie-chart-details {
+    width: 40%;
+  
+    /* border: 2px solid red; */
+    text-align: justify;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+  }
+  
+  .pie-chart-details li {
+    font-size: 1.5rem;
+  
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
