@@ -1,9 +1,9 @@
 .Sidebar {
     background-color: #44334D;
-    /* border: 2px solid green; */
     width: 250px; 
     height: 100vh; 
     position: fixed;   
+    /* border: 2px solid red; */
 }
 .userprofile{
         display: flex;
@@ -12,7 +12,6 @@
         height: 50px;
         width: 100%;
         margin-top: 200px;
-        /* margin-left: 10px; */
         color: #CECECE;
         background-color: #4e3260;
         overflow: hidden;
@@ -22,7 +21,6 @@
 .upper-level{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     overflow: hidden;
     flex-direction: column; 
     align-items: stretch; 
@@ -33,11 +31,13 @@
 .logo{
     width: 200px;
     margin-left: 13px;
-    /* border: 2px solid yellow; */
+    
 }
-
-
 .sidebuttons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 2px solid red;
     cursor:pointer;
     width: 8.3em;
     height: 2.3em;
@@ -60,7 +60,6 @@
    }
    
    .sidebuttons:after {
-    content: "";
     background: white;
     position: absolute;
     z-index: -1;
@@ -77,3 +76,63 @@
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
    }
+
+
+/* For tablet screens (between 768px and 1200px) */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .Sidebar {
+        width: 200px;
+    }
+    .userprofile {
+        font-size: 24px;
+    }
+    .sidebuttons {
+        width: 7em;
+        font-size: 18px;
+    }
+}
+
+/* For mobile screens (less than 768px) */
+@media (max-width: 768px) {
+    .Sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .userprofile {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .upper-level {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .logo {
+        width: 150px;
+        margin-left: 5px;
+    }
+    .sidebuttons {
+        width: 6em;
+        font-size: 16px;
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+    }
+}
+
+/* For extra small screens (less than 480px) */
+@media (max-width: 480px) {
+    .userprofile {
+        font-size: 18px;
+        gap: 5px;
+        margin-top: 15px;
+    }
+    .sidebuttons {
+        width: 5.5em;
+        font-size: 14px;
+    }
+    .logo {
+        width: 100px;
+        margin-left: 5px;
+    }
+}

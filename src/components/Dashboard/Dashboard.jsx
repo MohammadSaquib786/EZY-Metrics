@@ -35,7 +35,7 @@ function Dashboard() {
           <p className='paragraph'>The bar graph illustrates monthly lead generation from four key sources: Website Leads, Social Media Leads, Referral Leads, and Email Campaign Leads, over the course of a year. It shows that Referral Leads and Email Campaign Leads consistently drive the highest numbers, with Referral Leads peaking in August and Email Campaign Leads reaching their maximum in September. Meanwhile, Website Leads and Social Media Leads remain relatively steady, though they generate fewer leads compared to the other two channels. Website leads fluctuate between 50 and 80 throughout the year, while social media leads show a modest increase between May and July, reaching around 80. Overall, the data suggests that Referral and Email campaigns are the most effective channels for lead generation, while website and social media sources offer stable but smaller contributions.</p>
         </div>
         <div className='bargraph'>
-          <ul className='bargraphlists'>
+          <ul className='bargraphlist'>
           <li>
             Group A Overview: Group A shows the highest value for the first bar but much lower values for the other two categories.</li>
 

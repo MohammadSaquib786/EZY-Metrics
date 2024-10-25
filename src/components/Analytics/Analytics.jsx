@@ -9,14 +9,12 @@ import Linegrph from '../Graphs/Analytics/Linegraph';
 const Analytics = () => {
   return (
     <div className='analytics'>
-      {/* Header Section */}
       <div className="analytics-header">
         <h1>Analytics Dashboard</h1>
         <p className='analytics-description'>
           This dashboard provides an overview of key lead generation data, showcasing performance insights across multiple channels and sources. The visualizations below provide a detailed breakdown of how leads are generated and how different marketing efforts contribute to business outcomes.
         </p>
       </div>
-      {/* Section 2: Monthly Lead Performance */}
       <div className="analytics-section">
         <h2> Website vs Social Media Lead Performance Across Pages</h2>
         <p className="section-description">
@@ -51,8 +49,6 @@ const Analytics = () => {
        <div className='bargraph'>  <BarsDataset /></div>
       </div>
       
-
-      {/* Section 3: Lead Source Distribution - Pie Chart */}
       <div className="analytics-section">
         <h2>Lead Source Breakdown</h2>
         <p className="section-description">
@@ -67,10 +63,7 @@ const Analytics = () => {
           </ul>
           <PieActiveArc />
         </div>
-      </div>
-   
-     
-          
+      </div>       
         </div>
   
   );

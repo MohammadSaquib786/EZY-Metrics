@@ -58,3 +58,37 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  /* For tablet screens (between 768px and 1200px) */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .dashboard {
+        margin-left: 200px; /* Adjust margin to match sidebar */
+    }
+    .title {
+        font-size: 2rem; /* Adjust title font size */
+    }
+    .para, .paragraph {
+        font-size: 1.3rem; /* Adjust paragraph font size */
+    }
+}
+
+/* For mobile screens (less than 768px) */
+@media (max-width: 768px) {
+    .dashboard {
+        margin-left: 0; /* Remove margin for full width */
+        padding: 10px; /* Reduce padding */
+    }
+    .topchatbar, .lowerchatbar {
+        padding: 15px; /* Reduce padding for top and lower chat bars */
+    }
+    .title {
+        font-size: 1.8rem; /* Further reduce title font size */
+    }
+    .para, .paragraph {
+        font-size: 1.2rem; /* Further reduce paragraph font size */
+    }
+    .bargraphlist {
+        font-size: 1.2rem; /* Adjust bar graph list font size */
+        width: 100%; /* Make list full width */
+    }
+}
